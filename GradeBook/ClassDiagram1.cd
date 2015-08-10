@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GradeBook.ReportCard">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAEA=</HashCode>
+      <FileName>ReportCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GradeBook.Form1">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GradeBook.Form1.LetterGrade" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Form1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>sGCAkATABLggQBBQCACAQIRSIEA4ACACEHQAAogBAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GradeBook.GradeItem">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>GradeItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GradeBook.IPerson">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GradeBook.Student">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="GradeBook.IPerson" ManuallyRouted="true">
+      <Path>
+        <Point X="2.75" Y="1.988" />
+        <Point X="2.75" Y="2.438" />
+        <Point X="1.5" Y="2.438" />
+        <Point X="1.5" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GradeBook.Teacher">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="GradeBook.IPerson" ManuallyRouted="true">
+      <Path>
+        <Point X="2.75" Y="1.988" />
+        <Point X="2.75" Y="2.438" />
+        <Point X="4" Y="2.438" />
+        <Point X="4" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
